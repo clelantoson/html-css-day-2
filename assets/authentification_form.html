@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+  <title> Sign In - Event Mic </title>
+</head>
+<body>
+
+  <div class="container col-md-6 col-sm-8 mx-auto">
+    
+    <form class="js-validate form-signin m-5" novalidate="novalidate">
+      <!-- Logo -->
+      <div class="text-center">
+        <a href="../home/index.html" aria-label="Space">
+          <img class="mb-3" src="../assets/img/logo.png" alt="Logo" width="150" height="150">
+        </a>
+      </div>
+      <!-- End Logo -->
+
+      <!-- Title -->
+      <div class="text-center mb-4">
+        <h1 class="h3 mb-0">Please sign in</h1>
+        <p>Signin to manage your account and create an event.</p>
+      </div>
+      <!-- End Title -->
+
+      <!-- Input -->
+      <div class="js-form-message mb-3">
+        <div class="js-focus-state input-group form">
+          <div class="input-group-prepend form__prepend">
+            <span class="input-group-text form__text">
+              <span class="fa fa-user form__text-inner"></span>
+            </span>
+          </div>
+          <input type="email" class="form-control form__input" name="email" required="" placeholder="Email" aria-label="Email" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="js-form-message mb-3">
+        <div class="js-focus-state input-group form">
+          <div class="input-group-prepend form__prepend">
+            <span class="input-group-text form__text">
+              <span class="fa fa-lock form__text-inner"></span>
+            </span>
+          </div>
+          <input type="password" class="form-control form__input" name="password" required="" placeholder="Password" aria-label="Password" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <div class="row mb-3">
+        <div class="col-6">
+          <!-- Checkbox -->
+          <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
+            <input type="checkbox" class="custom-control-input" id="rememberMeCheckbox">
+            <label class="custom-control-label" for="rememberMeCheckbox">
+              Remember Me
+            </label>
+          </div>
+          <!-- End Checkbox -->
+        </div>
+
+        <div class="col-6 text-right">
+          <a class="float-right" href="recover-account.html">Forgot Password?</a>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <button type="submit" class="btn btn-block btn-primary">Signin</button>
+      </div>
+
+      <div class="text-center mb-3">
+        <p class="text-muted">Do not have an account? <a href="signup-simple.html">Signup</a></p>
+      </div>
+
+
+      <p class="small text-center text-muted mb-0">All rights reserved. © Space. 2018 Htmlstream.</p>
+    </form>
+  </div>
+</body>
+
+
+
